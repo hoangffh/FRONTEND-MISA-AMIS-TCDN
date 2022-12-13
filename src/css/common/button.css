@@ -1,0 +1,28 @@
+.m-button
+{
+    height: 34px;
+    padding: 0 16px;
+    background-color:  rgb(1, 143, 1);
+    color:#fff;
+    border-radius: 4px;
+    line-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.m-button:hover{
+    background-color: rgb(3, 184, 3);
+}
+.m-button-cancel
+{
+    border: 1px solid #8d9096;
+    color: #111;
+    background-color: transparent;
+}
+.m-button-cancel:hover{
+    background-color: #ccc;
+}
+.m-button-save
+{
+    margin-right: 12px;
+}

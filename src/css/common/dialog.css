@@ -1,0 +1,116 @@
+.view-dialog-wrap {
+  z-index: 1000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.showDiaglog
+{
+  display: flex;
+}
+
+.view-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 8px rgb(150, 150, 150);
+  width: 380px;
+  background: white;
+  border-radius: 4px;
+  padding:18px 26px;
+}
+.dialog__container 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12px 0;
+}
+.dialog__container .up {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.dialog__container .dialog-icon {
+  margin-right: 30px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialog__container div.err {
+  background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -752px -462px;
+  width: 36px;
+  height: 36px;
+}
+
+.dialog__container .content {
+  font-size: 14px;
+  line-height: 1.8rem;
+}
+.view-dialog.view-dialog-notify .dialog-icon > div {
+  background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -598px -463px;
+  width: 36px;
+  height: 37px;
+}
+.dialog__container  .down {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  border-top: 1px solid rgb(161, 161, 161);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.view-dialog.view-dialog-err .dialog-icon > div {
+  background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -752px -462px;
+  width: 36px;
+  height: 36px;
+}
+
+.view-dialog.view-dialog-notify .down {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  border-top: 1px solid rgb(161, 161, 161);
+}
+
+.view-dialog.view-dialog-confirm .dialog-icon > div {
+  background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -598px -463px;
+  width: 36px;
+  height: 37px;
+}
+
+.view-dialog.view-dialog-notify .down {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid rgb(161, 161, 161);
+  flex-direction: row-reverse;
+}
+
+.view-dialog.view-dialog-question .dialog-icon > div {
+  background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -832px -462px;
+  width: 36px;
+  height: 36px;
+}
+
+.view-dialog.view-dialog-question .down {
+  display: flex;
+  justify-content: space-between !important;
+  padding-top: 20px;
+  border-top: 1px solid rgb(161, 161, 161);
+}
+.view-dialog.view-dialog-question .right {
+  display: flex;
+  align-items: center;
+}
+.view-dialog.view-dialog-question .btn-1 {
+  margin-right: 10px;
+}

@@ -1,0 +1,30 @@
+.container-menu-footer
+{
+    width: calc(100% - 12px);
+    /* width: calc(100% - 180px - 24px);  */
+    height: 40px;
+    display: flex;
+    padding: 0 12px;
+    position: absolute;
+    bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 40px;
+    /* overflow: hidden; */
+}
+.container-menu-footer-totalRecord-right
+{
+    display: flex;
+    align-items: center;
+    padding-right: 6px;
+}
+.overlay-body-informationEmployee-bottom-footer
+{
+    display: flex;
+    padding-top: 24px;
+    justify-content: space-between;
+}
+.overlay-body-informationEmployee-bottom-footer-right
+{
+    display: flex;
+}

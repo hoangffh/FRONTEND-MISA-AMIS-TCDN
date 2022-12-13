@@ -1,0 +1,60 @@
+@import url(./layout/sidebar.css);
+@import url(./layout/header.css);
+@import url(./layout/container.css);
+@import url(../css/common/common.css);
+@import url(../css/common/vuetify.css);
+@import url(../css/common/input.css);
+@import url(../css/layout/footer.css);
+@import url(../css/layout/overlay.css);
+@import url(../css/employee/employee.css);
+@import url(../css/common/radio.css);
+@import url(../css/common/BaseComboboxTB.scss);
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Notosans regular;
+    font-size:13px ;
+    background-color: #ccc;
+}
+@font-face {
+    font-family: Notosans Bold;
+    src: url("../assets/fonts/notosans-bold.3ede5aff.woff2");
+}
+@font-face {
+    font-family: Notosans Italic;
+    src: url("../assets/fonts/notosans-italic.1c1aaac9.woff2");
+}
+@font-face {
+    font-family: Notosans regular;
+    src: url("../assets/fonts/notosans-regular.2cb88a13.woff2");
+}
+@font-face {
+    font-family: Notosans semibold;
+    src: url("../assets/fonts/notosans-semibold.df3e6dc4.woff2");
+}
+#app
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.diplay-flex{
+    display: flex;
+}
+.display-none
+{
+    display: none;
+}
+.positionRelative
+{
+    position: relative;
+}
+.cashHome
+{
+    font-size: 13px;
+    color: #0075c0;
+    margin-left: 4px;
+    text-decoration: none;
+}

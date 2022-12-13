@@ -1,0 +1,113 @@
+
+.base-cbb{
+    position: relative;
+    border-radius: 2px;
+    font-size: 13px;
+    &.disable {
+      background-color: #edeef0;
+    }
+    & .input__wrap {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        position: relative;
+        & .cbb__input {
+          border-radius: 2px;
+        }
+        & input {
+          box-sizing: border-box;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          width: 100%;
+          border: 1px solid #babec5;
+          font-size: 13px;
+            height: 100%;
+            flex: 1;
+            outline: none;
+            padding-right: 32px;
+            padding-left: 8px;
+            &:focus {
+
+          border: 1px solid #2ca01c;
+            }
+        }
+        & .cbb__icon-wrap {
+            width: 32px;
+            height: calc(100% - 2px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            cursor: pointer;
+            &:hover {
+              background-color: #ccc;
+            }
+            
+            & .cbb__icon-hide {
+              background: url('../../assets//img//Sprites.64af8f61.svg') no-repeat -564px -365px;
+              width: 8px;
+              height: 5px;
+                position: absolute;
+            }
+            & .cbb__icon-show {
+              background: url('../../assets//img//Sprites.64af8f61.svg') no-repeat -564px -365px;
+              width: 8px;
+              height: 5px;
+              position: absolute;
+              transform: rotate(180deg);
+            }
+        }
+
+        & .cbb__icon__add-wrap {
+            width: 32px;
+            height: calc(100% - 2px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 1px;
+            right: 32px;
+            cursor: pointer;
+            &:hover {
+              background-color: #ccc;
+            }
+          & .cbb__icon__add {
+            background: url('../../assets//img//Sprites.64af8f61.svg') no-repeat -34px -314px;
+            width: 12px;
+            height: 12px;
+          }
+        }
+    }
+}
+.cbb__list {
+  background-color: white;
+  z-index: 100;
+  position: fixed;
+  overflow-y: auto;
+  max-height: 160px;
+  border: 1px solid #babec5;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+
+  &__item {
+    box-sizing: border-box;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      cursor: pointer;
+      font-size: 13px;
+      &:hover {
+          background-color: #ebedf0;
+          color: #2ca01c;
+      }
+      &.active {
+          background-color: #2ca01c;
+          color: white;
+      }
+  }
+}
