@@ -1,9 +1,10 @@
 <template>
   <TheSideBar></TheSideBar>
   <TheContainer></TheContainer>
+  <h1>Hoangtn</h1>
 </template>
 
-<script>
+<scrip>
 import TheContainer from "./components/layout/TheContainer.vue"
 import TheSideBar from "./components/layout/TheSideBar.vue";
 export default {
@@ -13,7 +14,7 @@ export default {
     TheContainer,
 },
 };
-</script>
+</scrip
 
 <style>
 @import url(./css/main.css);
