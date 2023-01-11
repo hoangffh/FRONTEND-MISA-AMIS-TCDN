@@ -1,6 +1,7 @@
 <template>
   <TheSideBar></TheSideBar>
   <TheContainer></TheContainer>
+  <h1>Nguoi Khac Code</h1>
 </template>
 
 <scrip>
