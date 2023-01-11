@@ -4,6 +4,9 @@
   <h1>Hoangtn</h1>
   <h3>Hoangtn142</h3>
   <h1>Hoang test</h1>
+  <h1>Hoangtn</h1>
+  <h3>Hoangtn142</h3>
+  <h1>Hoang test</h1>
 </template>
 
 <scrip>
