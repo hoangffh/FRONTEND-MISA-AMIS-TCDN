@@ -1,7 +1,8 @@
 <template>
   <TheSideBar></TheSideBar>
   <TheContainer></TheContainer>
-  <h1>Task 01 Tran Nhat Hoang 000012</h1>
+  <h1>Task 01 Tran Nhat Hoang 000012 Tran Van Thai</h1>
+  <h1>Task 01 Tran Nhat Hoang 000012 Tran Van Thai</h1>
 </template>
 
 <scrip>
