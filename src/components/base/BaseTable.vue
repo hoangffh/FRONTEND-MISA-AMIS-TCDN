@@ -198,24 +198,22 @@
           :isShowContent="isShowContent"
           @onClick="handleShowContent"
         ></BaseDropdown>
-        <BaseDropdown
-          :isTextChange="true"
-          propKey="key"
-          propValue="value"
-          v-model:value="filterPopupTemp"
-          :items="filterCondition"
-          :isShowContent="isShowContent"
-          @onClick="handleShowContent"
-        ></BaseDropdown>
-        <BaseDropdown
-          :isTextChange="true"
-          propKey="key"
-          propValue="value"
-          v-model:value="filterPopupTemp"
-          :items="filterCondition"
-          :isShowContent="isShowContent"
-          @onClick="handleShowContent"
-        ></BaseDropdown>
+      </div>
+      <div class="drop__box__func_Filter_listItem_item_input">
+        <BaseInput
+          height="32px"
+          type="text"
+          placeholder="Nhập giá trị lọc"
+          v-model="valueFilterPopup"
+        ></BaseInput>
+      </div>
+      <div class="drop__box__func_Filter_listItem_item_input">
+        <BaseInput
+          height="32px"
+          type="text"
+          placeholder="Nhập giá trị lọc"
+          v-model="valueFilterPopup"
+        ></BaseInput>
       </div>
       <div class="drop__box__func_Filter_listItem_item_input">
         <BaseInput
